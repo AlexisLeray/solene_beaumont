@@ -1,0 +1,92 @@
+.header {
+  position: relative;
+  background-image: url('/images/pexels-colin-lloyd.jpeg');
+  width: 100%;
+  height: 28rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: var(--main-overlay);
+  width: 100%;
+  height: 80%;
+  z-index: 0
+}
+
+.header__content {
+  color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.header__content h1 {
+  margin: 0;
+  color: #87cefa
+}
+
+.header__content h2 {
+  margin: 1rem 0 0 0;
+
+}
+
+.main__banner_logo {
+  width: 100%;
+  background-color: none;
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.to_down {
+  width: 4rem;
+  text-align: center;
+  margin-top: 1rem
+  
+}
+
+.to_down svg {
+  color: white;
+  animation: 3s linear 1s infinite alternate scale;
+}
+@keyframes scale {
+  0% {
+    scale: 1
+  }
+
+  50% {
+    scale: 1.3
+  }
+
+  100% {
+    scale: 1
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .header {
+    height: 40rem;
+  }
+
+  .to_down svg:hover {
+    
+  }
+
+  
+}
