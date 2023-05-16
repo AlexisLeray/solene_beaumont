@@ -6,11 +6,12 @@ export default function Contact () {
     return (
         <div>
         
-        <section id="contact"className={`${style.contact} container`}> 
-        <header className={style.contact__title}>
+        {/* <section id="contact"className={`${style.contact} container`}>  */}
+        <section id="contact" className={style.contact}>
+        <header className="component__header container">
             <h2>Contact</h2>    
         </header>
-        <main>
+        <main className="container">
             <p>
                 4 rue Racine - 44000 NANTES
             </p>

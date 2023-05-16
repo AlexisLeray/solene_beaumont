@@ -17,7 +17,7 @@
   /* --subtitle-color: #DEB17C; */
   --main-color: #6299ce; 
   --subtitle-color: #6299ce; 
-  --main-background: rgb(30,30,30);
+  --main-background: rgba(30,30,30,0.9);
   --footer-background: rgba(30,30,30,1);
   /* --main-body-bg: rgba(222,177,124, 0.1); */
   --main-body-bg: #f8f8f8;
@@ -27,13 +27,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: roboto,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   scroll-behavior: smooth;
 }
 
 a {
-  /* color: var(--main-color); */
   text-decoration: none;
   font-size:1rem
 }
@@ -43,17 +42,12 @@ a {
   transition: all 0.5s
 }
 .container {
-  /* padding: 0 2rem;
-  margin: auto;
-  background-color: rgba(222,177,124, 0.2); */
   max-width: 640px;
   padding:  2rem;
   margin: 2rem auto;
   background-color: var(--main-body-bg);
   padding-bottom: 2rem;
   box-shadow: var(--main-shadow);
-  /* border: 1px solid blue */
-  
 }
 
 header {
@@ -73,10 +67,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-/* footer {
-  background-color: var(--main-background);
-} */
-/* .component__header */
 h1 {
   font-family: montserrat;
   font-size: 3rem;
@@ -98,6 +88,10 @@ li {
   font-size: 1rem;
   line-height: 1.5
 }
+section {
+  /* background-color: var(--main-background) */
+  background-color: rgb(34,34,34)
+}
 @media screen and (min-width: 640px){
   .container {
     max-width: 1170px;
@@ -109,8 +103,10 @@ li {
 @media only screen and (min-width: 1170px ) {
   .container {
     max-width: 1170px;
-    padding-top: 5rem;
   };
+  .component__header{
+
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {

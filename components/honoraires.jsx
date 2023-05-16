@@ -6,12 +6,12 @@ export default function Honoraires () {
     return (
         <div>
             
-        <section id="honoraire" className="container">
+        <section id="honoraire">
             
-         <header className="component__header">
+         <header className="component__header container">
                 <h2>Honoraires</h2>   
             </header>
-            <main>
+            <main className="container">
                 <p>
                     Selon la loi n° 2015-990 du 6 août 2015, la fixation de ses honoraires donne lieu à la rédaction d’une
                     convention d’honoraires signée par l’Avocat et par son client.

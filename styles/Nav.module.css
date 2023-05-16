@@ -122,7 +122,7 @@
     align-items: center;
     background-color: initial;
     color: black;
-    background-color: #1e1e1e;
+    background-color: var(--main-background);
     color: #87cefa;
     transform: none;
     padding-top: 1rem;
