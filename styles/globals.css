@@ -15,13 +15,14 @@
   --mobilNav-bg: rgba(255,255,255,0.9);
   --background-img: #DEB17C;
   /* --subtitle-color: #DEB17C; */
-  --main-color: #6299ce; 
-  --subtitle-color: #6299ce; 
+  --main-color: rgba(98, 153, 206, 1);
+  --subtitle-color: rgba(98, 153, 206, 1);
   --main-background: rgba(30,30,30,0.9);
   --footer-background: rgba(30,30,30,1);
   /* --main-body-bg: rgba(222,177,124, 0.1); */
   --main-body-bg: #f8f8f8;
-  --main-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* --main-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  --main-shadow: rgba(98, 153, 206, 0.35) 0px 5px 15px;
 }
 html,
 body {
@@ -43,11 +44,12 @@ a {
 }
 .container {
   max-width: 640px;
-  padding:  2rem;
-  margin: 2rem auto;
-  background-color: var(--main-body-bg);
+  padding:  1rem;
+  margin: auto;
+  /* background-color: var(--main-body-bg); */
   padding-bottom: 2rem;
-  box-shadow: var(--main-shadow);
+  /* box-shadow: var(--main-shadow); */
+  /* margin: 1rem 1rem */
 }
 
 header {
@@ -89,8 +91,20 @@ li {
   line-height: 1.5
 }
 section {
+  margin-top: 1rem
+}
+.main {
   /* background-color: var(--main-background) */
-  background-color: rgb(34,34,34)
+  background-color: rgb(34,34,34);
+  margin: 1rem auto
+}
+.component__main_content {
+  /* background-color: var(--main-background) */
+  background-color: rgb(34, 34, 34);
+  color: white;
+  /* margin-top: 0.5rem; */
+
+
 }
 @media screen and (min-width: 640px){
   .container {
@@ -104,9 +118,6 @@ section {
   .container {
     max-width: 1170px;
   };
-  .component__header{
-
-  }
 }
 
 /* @media (prefers-color-scheme: dark) {
