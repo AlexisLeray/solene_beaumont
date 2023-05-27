@@ -12,8 +12,7 @@ export default function Domaines () {
                     
                     <h2>Domaine d'expertise</h2>
                 </header>
-                <main className="main">
-                    <div className="component__main_content container">
+                <main className="main component__main_content container">
                     <p>
                         Maître Solène BEAUMONT intervient dans tous les domaines du droit pénal
                     </p>
@@ -47,7 +46,6 @@ export default function Domaines () {
                         Maître Solène BEAUMONT vous accueille au sein de son cabinet pour vous conseiller dans votre
                         procédure et vous invite à prendre attache auprès de son secrétariat le plus tôt possible.
                     </p>
-                    </div>
                 </main>
             </section>
         </div>
