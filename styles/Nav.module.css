@@ -100,7 +100,7 @@
   transform: rotate(-45deg);
   color: black
 }
-@media screen and (min-width: 1170px){
+@media screen and (min-width: 700px){
   .header{
     position: initial;
     display: initial;
