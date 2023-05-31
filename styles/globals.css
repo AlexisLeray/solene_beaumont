@@ -23,6 +23,7 @@
   --main-body-bg: #f8f8f8;
   /* --main-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   --main-shadow: rgba(98, 153, 206, 0.35) 0px 5px 15px;
+  --contact-color: #FFFFFF;
 }
 html,
 body {

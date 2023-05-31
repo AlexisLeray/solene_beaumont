@@ -66,7 +66,7 @@ export default function Contact () {
                         </svg>
                         <div className={style.contact__info__phone_number}>
                         <p>
-                            02 40 69 16 18
+                            02.40.69.16.18
                         </p>
                         <p>
                             07.49.91.04.02

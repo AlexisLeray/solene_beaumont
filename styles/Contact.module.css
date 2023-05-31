@@ -9,16 +9,20 @@
     align-items: center;
 }
 .contact__info_mail {
-    color: #CECC62
+    color: var(--contact-color);
 }
 .contact__info_mail a {
-    color: #CECC62; 
+    color: var(--contact-color); 
     text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
+/* .contact__info_mail a:hover {
+    display: inline-block;
+} */
 .map__adress {
-    color: #CECC62;
-    font-size: 1.5rem
+    /* color: #CECC62; */
+    color: var(--contact-color);
+    font-size: 2rem
 }
 
 .iframe {
@@ -42,7 +46,7 @@
     margin-top: 0;
 }
 .contact__info_phone {
-    color: #CECC62
+    color: var(--contact-color);
 }
 
 

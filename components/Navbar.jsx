@@ -15,16 +15,9 @@ const MENU_LIST = [
 const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1);
-  console.log(navActive)
   const test =  () => {
     setNavActive(!navActive)
-    console.log(navActive)
-
   }
-  const test2 = (test) => {
-    console.log(navActive)
-  }
-
   return (
     <header className={style.header}>
       <nav className={style.nav}>
