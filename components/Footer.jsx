@@ -12,6 +12,9 @@ export default function Footer() {
                 </div>
                 <p>Solène Beaumont</p>
             </div>
+            <div>
+                <Link href="credits">Crédits</Link>
+            </div>
             <div className={styles.legal}>
                 <Link href={"#"}>
                     <p>Mentions Légales</p>

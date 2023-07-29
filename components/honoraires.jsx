@@ -2,15 +2,19 @@ import Link from 'next/link'
 import Navbar from './Navbar.jsx'
 import style from '../styles/Fees.module.css'
 import Footer from './Footer.jsx'
+
+
 export default function Honoraires () {
     return (
         <div>
             
-        <section id="honoraire">
+        <section id="honoraire" className={`${style.section__content} `}>
             
-         <header className="component__header container">
+         {/* <header className="component__header"> */}
+            <header className={`component__header ${style.header} `}>
                 <h2>Honoraires</h2>   
             </header>
+            {/* <main className="container"> */}
             <main className="container">
                 <p>
                     Selon la loi n° 2015-990 du 6 août 2015, la fixation de ses honoraires donne lieu à la rédaction d’une

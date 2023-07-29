@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  background-image: url('/images/pexels-colin-lloyd.jpeg');
+  background-image: url('/images/TJ.jpg');
   width: 100%;
   height: 28rem;
   background-repeat: no-repeat;
@@ -83,10 +83,4 @@
   .header {
     height: 40rem;
   }
-
-  .to_down svg:hover {
-    
-  }
-
-  
 }

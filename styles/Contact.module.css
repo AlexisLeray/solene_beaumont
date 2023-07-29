@@ -1,6 +1,7 @@
  .contact {
     text-align: center;
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    margin-bottom: 0
 } 
 .contact__main_content {
     display: flex;
@@ -16,11 +17,7 @@
     text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
-/* .contact__info_mail a:hover {
-    display: inline-block;
-} */
 .map__adress {
-    /* color: #CECC62; */
     color: var(--contact-color);
     font-size: 2rem
 }
@@ -52,14 +49,9 @@
 
 @media screen and (min-width: 1200px){
     .contact__main_content {
-        /* flex-direction: row;
-        justify-content: space-around;
-        align-items: center; */
-        /* height: 20rem; */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        /* justify-items: center; */
         align-content: center;
         padding: 0 0 1rem 0
     } 

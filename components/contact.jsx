@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import Navbar from '../components/Navbar.jsx'
+import Navbar from './Navbar.jsx'
 import style from '../styles/Contact.module.css'
-import Footer from '../components/Footer.jsx'
+import Footer from './Footer.jsx'
 export default function Contact () {
     return (
         <div>

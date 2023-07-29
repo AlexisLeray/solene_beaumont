@@ -54,19 +54,9 @@
   text-decoration: underline;
   color: white
 }
-/* .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-} */
-
-/* @media screen and (min-width: 640px) { */
   @media screen and (min-width: 1024px) {
   .footer {
     margin-bottom: 0;
-    /* position: sticky; */
-    /* bottom: 0; */
     width: 100%;
     flex-direction: row;
     padding: 2rem 0 
