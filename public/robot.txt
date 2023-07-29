@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /  # Autoriser tous les robots à accéder à toutes les pages du site
+
+# Ignorer les dossiers et fichiers spécifiques
+Disallow: /_next/
+Disallow: /api/
+Disallow: /static/
+
+# Ignorer les pages de connexion et d'administration
+Disallow: /login/
+Disallow: /admin/
+
+# Ignorer les paramètres d'URL
+Disallow: /*?*
+
+# Limiter la vitesse d'exploration pour éviter de surcharger le serveur
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://www.example.com/sitemap.xml
