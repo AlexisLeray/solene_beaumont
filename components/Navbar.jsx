@@ -6,9 +6,9 @@ import style from "../styles/Nav.module.css"
 
 const MENU_LIST = [
   { text: "Accueil", href: "/" },
-  { text: "Domaine d'intervention", href: "#domaine" },
-  { text: "Honoraires", href: "#honoraire" },
-  { text: "Contact", href: "#contact" },
+  { text: "Domaine d'intervention", href: "/#domaine" },
+  { text: "Honoraires", href: "/#honoraire" },
+  { text: "Contact", href: "/#contact" },
 ];
 
 

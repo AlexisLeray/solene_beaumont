@@ -5,8 +5,6 @@ import Footer from './Footer.jsx'
 export default function Contact () {
     return (
         <div>
-        
-        {/* <section id="contact"className={`${style.contact} container`}>  */}
         <section id="contact" className={style.contact}>
             <header className="component__header">
                 <h2>Contact</h2>    

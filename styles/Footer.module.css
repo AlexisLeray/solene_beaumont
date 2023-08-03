@@ -25,7 +25,6 @@
   height: 4rem;
   border: 3px solid var(--main-color);
   transform: rotate(45deg);
-  margin: 
 }
 .footer__logo_content {
   transform: rotate(-45deg);
