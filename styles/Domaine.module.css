@@ -1,14 +1,12 @@
 .domaine__main__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
-.content__icon{
-    height: 100%;
-    width: 2.5rem;
-    margin: 1rem;
-    top: 0
-
+.content__icon {
+  height: 100%;
+  width: 2.5rem;
+  margin: 1rem;
+  top: 0;
 }

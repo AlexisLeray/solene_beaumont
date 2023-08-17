@@ -16,5 +16,4 @@ Disallow: /*?*
 # Limiter la vitesse d'exploration pour éviter de surcharger le serveur
 Crawl-delay: 5
 
-# Sitemap
-Sitemap: https://www.example.com/sitemap.xml
+

@@ -14,20 +14,12 @@
   --main-overlay: rgba(0,0,0,0.4);
   --mobilNav-bg: rgba(255,255,255,0.9);
   --background-img: #DEB17C;
-  /* --subtitle-color: #DEB17C; */
   --main-color: rgba(98, 153, 206, 1);
   --subtitle-color: rgba(98, 153, 206, 1);
   --main-background: rgba(30,30,30,0.9);
   --footer-background: rgba(30,30,30,1);
-  /* --main-body-bg: rgba(222,177,124, 0.1); */
   --main-body-bg: #f8f8f8;
-  /* --main-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   --main-shadow: rgba(98, 153, 206, 0.35) 0px 5px 15px;
-  /* --second-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px; */
   --second-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   --contact-color: #FFFFFF;
 }
@@ -53,10 +45,6 @@ a {
   max-width: 640px;
   padding:  1rem;
   margin: auto;
-  /* text-align: justify */
-  /* background-color: var(--main-body-bg); */
-  /* box-shadow: var(--main-shadow); */
-  /* margin: 1rem 1rem */
 }
 
 header {
@@ -68,15 +56,11 @@ header {
   align-items: center;
 }
 .component__header {
-  /* background-color: rgba(255,255,255,0.9); */
   background: var(--main-background);
   color: var(--subtitle-color);
   text-align: center;
   width: 100%;
   padding: 1rem
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 h1 {
   font-family: montserrat;
@@ -232,7 +216,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 /**

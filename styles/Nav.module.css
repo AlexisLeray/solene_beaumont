@@ -1,11 +1,10 @@
 .logo_overflow {
   width: 25%;
   margin: 20% auto auto auto;
-  
 }
 .image {
   width: 100%;
-  border-radius: 5%
+  border-radius: 5%;
 }
 .header {
   position: fixed;
@@ -13,38 +12,36 @@
   background-color: var(--mobilNav-bg);
   width: 100%;
   height: 10%;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 3
-  
+  z-index: 3;
 }
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.nav__menu_bar{
+.nav__menu_bar {
   display: flex;
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
 }
-.nav__menu_bar div{
+.nav__menu_bar div {
   width: 40px;
   height: 4px;
   background-color: black;
   border-radius: 2px;
-  
 }
-.active{
+.active {
   position: fixed;
   bottom: 10%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, 0);
   text-align: center;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: space-between;
@@ -62,7 +59,7 @@
   width: 100%;
   transform: translate(-50%, 0);
   text-align: center;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: space-between;
@@ -70,46 +67,43 @@
   color: white;
   font-size: 1.5em;
   transition: all 0.5s;
-  z-index: 5
+  z-index: 5;
 }
 .nav__menu_list div {
-  padding: 2rem
+  padding: 2rem;
 }
-.navItem a{
-  color: black
+.navItem a {
+  color: black;
 }
 .logo_overflow {
-  transform: rotate(45deg) ;
-  display:flex; 
-  justify-content: center; 
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 3rem; 
+  width: 3rem;
   height: 3rem;
   overflow: hidden;
-  padding:0;
+  padding: 0;
   border: 3px solid #87cefa;
-  
 }
 .logo_overflow h2 {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 .logo_content {
   transform: rotate(-45deg);
-  color: black
+  color: black;
 }
-@media screen and (min-width: 700px){
-  .header{
+@media screen and (min-width: 700px) {
+  .header {
     position: initial;
     display: initial;
-    
   }
-  .nav{
+  .nav {
     display: initial;
-    
   }
-  
+
   .nav__menu_bar div {
-    display: none
+    display: none;
   }
   .nav__menu_list {
     position: sticky;
@@ -125,47 +119,45 @@
     padding-top: 1rem;
   }
   .nav__menu_list div {
-    padding: 0
+    padding: 0;
   }
   /*============LOGO NAV===============*/
   .logo_container {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0
+    padding: 0;
   }
   .logo_overflow {
     margin: 0;
-    background: var(--main-background)
+    background: var(--main-background);
   }
   .logo_content {
     transform: rotate(-45deg);
-    color: white
+    color: white;
   }
   .logo_overflow:hover {
-    transform: rotate(405deg)
+    transform: rotate(405deg);
   }
-.navItem {
-  background: linear-gradient (to right, var(--main-background) 50%, var(--main-color) 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all .2s ease-out;
-  color: var(--main-color)
-
-}
-.navItem a {
-  color: var(--main-color)
-}
+  .navItem {
+    background: linear-gradient
+      (to right, var(--main-background) 50%, var(--main-color) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+    color: var(--main-color);
+  }
+  .navItem a {
+    color: var(--main-color);
+  }
   /* ===========V3================= */
   .navItem:hover a {
     padding: 0.3rem 0.8rem;
     color: black;
     border-radius: 5%;
-    background-color: #BCD6FD;
+    background-color: #bcd6fd;
     background-position: left bottom;
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
-
- 
 }
