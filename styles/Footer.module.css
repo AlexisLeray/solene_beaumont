@@ -9,7 +9,9 @@
   margin-bottom: 15%;
   background-color: var(--footer-background);
 }
-
+/* .footer > * {
+  border: 1px solid red;
+} */
 .footer__logo_container {
   width: 12rem;
   display: flex;
@@ -47,14 +49,34 @@
   width: 100%;
   height: auto;
 }
+.credit,
+.legal {
+  padding: 0.5rem;
+}
+
 .credit a,
 .legal a {
   color: white;
+  font-size: 0.9rem;
 }
-.legal p {
-  margin: 0 0 0.5rem 0;
-  text-decoration: underline;
+
+.conception {
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conception p,
+.conception a {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.conception a {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+  padding-left: 0;
 }
 @media screen and (min-width: 1024px) {
   .footer {
@@ -67,5 +89,12 @@
     width: 25rem;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .credit a:hover,
+  .legal a:hover,
+  .conception a:hover {
+    color: var(--main-color);
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
   }
 }

@@ -5,9 +5,8 @@ import style from "../styles/Credits.module.css";
 export default function Credits() {
   return (
     <div>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
+
       <main
         className={`${style.credit__main_content} component__main_content  container`}
       >

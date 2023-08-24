@@ -17,8 +17,12 @@ export default function Footer() {
         <Link href="credits">Crédits</Link>
       </div>
       <div className={styles.legal}>
-        <Link href="legal">
-          <p>Mentions Légales</p>
+        <Link href="legal">Mentions Légales</Link>
+      </div>
+      <div className={styles.conception}>
+        <p>Conception: </p>
+        <Link href="https://www.linkedin.com/in/alexisleray/" target="_blank">
+          Alexis Leray
         </Link>
       </div>
     </footer>
