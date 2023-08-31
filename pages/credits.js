@@ -26,7 +26,7 @@ export default function Credits() {
             </a>{" "}
             from{" "}
             <a href="https://www.flaticon.com/fr/" title="Flaticon">
-              www.flaticon.com'
+              www.flaticon.com
             </a>
           </p>
         </div>
@@ -49,7 +49,7 @@ export default function Credits() {
             </a>{" "}
             from{" "}
             <a href="https://www.flaticon.com/fr/" title="Flaticon">
-              www.flaticon.com'
+              www.flaticon.com
             </a>
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function Credits() {
             </a>{" "}
             from{" "}
             <a href="https://www.flaticon.com/fr/" title="Flaticon">
-              www.flaticon.com'
+              www.flaticon.com
             </a>
           </p>
         </div>

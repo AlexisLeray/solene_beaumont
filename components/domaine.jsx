@@ -10,7 +10,7 @@ const Domaine = () => {
     <div>
       <section id="domaine" className="component__main_content">
         <header className="component__header">
-          <h2>Domaine d'intervention</h2>
+          <h2>Domaine d&apos;intervention</h2>
         </header>
         <main className="main  container">
           <p>
@@ -28,16 +28,16 @@ const Domaine = () => {
               className={style.content__icon}
             />
             <p>
-              Elle vous assiste aussi bien au cours de l’enquête (dépôt de
-              plainte, garde à vue, audition libre …), de l’information
-              judiciaire ou encore de l’audience devant le Tribunal de Police,
-              le Tribunal Correctionnel ou la Cour d’Assises.
+              Elle vous assiste aussi bien au cours de l&apos;enquête (dépôt de
+              plainte, garde à vue, audition libre …), de l&apos;information
+              judiciaire ou encore de l&apos;audience devant le Tribunal de
+              Police, le Tribunal Correctionnel ou la Cour d&apos;Assises.
             </p>
           </div>
           <p>
             Maître Solène BEAUMONT intervient également pour les mineurs qui
-            sont auteurs d’infraction devant le Juge des Enfants ou devant le
-            Tribunal pour Enfants.
+            sont auteurs d&apos;infraction devant le Juge des Enfants ou devant
+            le Tribunal pour Enfants.
           </p>
           <div className={style.domaine__main__content}>
             <img
@@ -48,15 +48,15 @@ const Domaine = () => {
             <p>
               Le cabinet vous accompagne également dans la préparation de vos
               audiences, établie avec vous une stratégie adaptée au regard des
-              éléments de votre dossier et vous explique l’ensemble des enjeux
-              et de la procédure.
+              éléments de votre dossier et vous explique l&apos;ensemble des
+              enjeux et de la procédure.
             </p>
           </div>
 
           <p>
-            Si vous êtes victime d’une infraction pénale, Maître Solène BEAUMONT
-            vous accompagne dans l’ensemble des démarches à effectuer pour
-            engager des poursuites.
+            Si vous êtes victime d&apos;une infraction pénale, Maître Solène
+            BEAUMONT vous accompagne dans l&apos;ensemble des démarches à
+            effectuer pour engager des poursuites.
           </p>
           <div className={style.domaine__main__content}>
             <img
