@@ -14,7 +14,13 @@ export default function Home() {
     <div>
       <Head>
         <title>Solène Beaumont, avocate au barreau de Nantes</title>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Maître Solène BEAUMONT intervient dans tous les domaines du droit pénal.
+Que vous soyez victime ou mis en cause, Maître Solène BEAUMONT vous accompagne et vous représente tout au long de la phase procédurale.
+Elle vous assiste aussi bien au cours de l’enquête (dépôt de plainte, garde à vue, audition libre …), de l’information judiciaire ou encore de l’audience devant le Tribunal de Police, le Tribunal Correctionnel ou la Cour d’Assises.
+Maître Solène BEAUMONT intervient également pour les mineurs qui sont auteurs d’infraction devant le Juge des Enfants ou devant le Tribunal pour Enfants"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.png" />
       </Head>
