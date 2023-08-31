@@ -4,7 +4,8 @@ import Navbar from "./Navbar.jsx";
 import style from "../styles/Domaine.module.css";
 import Footer from "./Footer.jsx";
 
-export default function Domaines() {
+// export default function Domaine() {
+const Domaine = () => {
   return (
     <div>
       <section id="domaine" className="component__main_content">
@@ -78,4 +79,6 @@ export default function Domaines() {
       </section>
     </div>
   );
-}
+};
+
+export default Domaine;

@@ -4,15 +4,14 @@ import Navbar from "./Navbar.jsx";
 import style from "../styles/Fees.module.css";
 import Footer from "./Footer.jsx";
 
-export default function Honoraires() {
+// export default function Honoraires() {
+const Honoraires = () => {
   return (
     <div>
       <section id="honoraire" className={`${style.section__content} `}>
-        {/* <header className="component__header"> */}
         <header className={`component__header ${style.header} `}>
           <h2>Honoraires</h2>
         </header>
-        {/* <main className="container"> */}
         <main className="container">
           <p>
             Selon la loi n° 2015-990 du 6 août 2015, la fixation de ses
@@ -48,4 +47,5 @@ export default function Honoraires() {
       </section>
     </div>
   );
-}
+};
+export default Honoraires;

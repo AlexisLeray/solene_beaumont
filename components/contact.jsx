@@ -3,7 +3,9 @@ import Link from "next/link";
 import Navbar from "./Navbar.jsx";
 import style from "../styles/Contact.module.css";
 import Footer from "./Footer.jsx";
-export default function Contact() {
+
+// export default function Contact() {
+const Contact = () => {
   return (
     <div>
       <section id="contact" className={style.contact}>
@@ -94,4 +96,5 @@ export default function Contact() {
       </section>
     </div>
   );
-}
+};
+export default Contact;
