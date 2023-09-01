@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Navbar from "./Navbar.jsx";
 import style from "../styles/Domaine.module.css";
