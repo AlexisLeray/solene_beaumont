@@ -1,12 +1,12 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Navbar from "../components/Navbar.jsx";
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
-import Honoraires from "../components/Honoraires.jsx";
-import Domaine from "../components/Domaine.jsx";
-import Contact from "../components/Contact.jsx";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Honoraires from "../components/Honoraires";
+import Domaine from "../components/Domaine";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
