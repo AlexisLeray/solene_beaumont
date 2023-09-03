@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "../components/Navbar.jsx";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import Test from "../components/Test";
 /*
 import Honoraires from "../components/Honoraires.jsx";
 import Domaine from "../components/Domaine.jsx";
