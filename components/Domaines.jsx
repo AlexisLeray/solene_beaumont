@@ -1,9 +1,7 @@
-
 import style from "../styles/Domaine.module.css";
 
-
 // export default function Domaine() {
-const Domaine = () => {
+const Domaines = () => {
   return (
     <div>
       <section id="domaine" className="component__main_content">
@@ -79,4 +77,4 @@ const Domaine = () => {
   );
 };
 
-export default Domaine;
+export default Domaines;

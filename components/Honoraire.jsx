@@ -1,8 +1,7 @@
-
 import style from "../styles/Fees.module.css";
 
 // export default function Honoraires() {
-const Honoraires = () => {
+const Honoraire = () => {
   return (
     <div>
       <section id="honoraire" className={`${style.section__content} `}>
@@ -45,4 +44,4 @@ const Honoraires = () => {
     </div>
   );
 };
-export default Honoraires;
+export default Honoraire;
