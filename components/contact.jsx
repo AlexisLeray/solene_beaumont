@@ -1,9 +1,5 @@
-import Link from "next/link";
-import Navbar from "./Navbar.jsx";
 import style from "../styles/Contact.module.css";
-import Footer from "./Footer.jsx";
 
-// export default function Contact() {
 const Contact = () => {
   return (
     <div>
@@ -90,7 +86,6 @@ const Contact = () => {
               <p>07.49.91.04.02</p>
             </div>
           </div>
-          {/* </div> */}
         </main>
       </section>
     </div>

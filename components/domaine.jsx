@@ -1,7 +1,6 @@
-import Link from "next/link";
-import Navbar from "./Navbar.jsx";
+
 import style from "../styles/Domaine.module.css";
-import Footer from "./Footer.jsx";
+
 
 // export default function Domaine() {
 const Domaine = () => {
