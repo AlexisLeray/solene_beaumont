@@ -1,15 +1,14 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Navbar from "../components/Navbar.jsx";
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
-import Test from "../components/Test";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 /*
 import Honoraires from "../components/Honoraires.jsx";
 import Domaine from "../components/Domaine.jsx";
 */
-import Contact from "../components/Contact.jsx";
 export default function Home() {
   return (
     <div>
@@ -92,8 +91,8 @@ Maître Solène BEAUMONT intervient également pour les mineurs qui sont auteurs
         </footer>
       </section>
       {/*<Domaine />
-      <Honoraires />*/}
-      <Test />
+      <Honoraires />
+      <Test />*/}
       <Contact />
       <Footer />
     </div>
