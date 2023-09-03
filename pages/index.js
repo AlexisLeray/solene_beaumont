@@ -92,6 +92,7 @@ Maître Solène BEAUMONT intervient également pour les mineurs qui sont auteurs
       </section>
       {/*<Domaine />
       <Honoraires />*/}
+      <Test />
       <Contact />
       <Footer />
     </div>
