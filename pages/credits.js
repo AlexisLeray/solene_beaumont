@@ -9,8 +9,8 @@ export default function Credits() {
       <main
         className={`${style.credit__main_content} component__main_content  container`}
       >
+        <h2>Credits</h2>
         {/* icone tribunal */}
-
         <div className={style.credit__main_content_icon}>
           <img
             src="/images/tribunal2.png"

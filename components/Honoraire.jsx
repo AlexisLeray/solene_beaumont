@@ -22,16 +22,21 @@ const Honoraire = () => {
           <p>Les honoraires seront évoqués dès le premier rendez-vous.</p>
           <ul>
             <li>
-              Au temps passé : le montant des honoraires est déterminé en
-              fonction du nombre d’heures qu’il aura été nécessaire de consacrer
-              au dossier. Une facture détaillée sera alors transmise pour
-              justifier de l’ensemble des prestations effectuées. Le client
-              recevra alors une facturation détaillée des diligences accomplies.
+              <p>
+                Au temps passé : le montant des honoraires est déterminé en
+                fonction du nombre d’heures qu’il aura été nécessaire de
+                consacrer au dossier. Une facture détaillée sera alors transmise
+                pour justifier de l’ensemble des prestations effectuées. Le
+                client recevra alors une facturation détaillée des diligences
+                accomplies.
+              </p>
             </li>
             <li>
-              Au forfait : le montant des honoraires est fixé de manière
-              définitive préalablement à toutes prestations et indiqué
-              clairement dans la convention d’honoraires.
+              <p>
+                Au forfait : le montant des honoraires est fixé de manière
+                définitive préalablement à toutes prestations et indiqué
+                clairement dans la convention d’honoraires.
+              </p>
             </li>
           </ul>
           <p>

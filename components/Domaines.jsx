@@ -1,6 +1,5 @@
 import style from "../styles/Domaine.module.css";
 
-// export default function Domaine() {
 const Domaines = () => {
   return (
     <div>
@@ -11,7 +10,7 @@ const Domaines = () => {
         <main className="main  container">
           <p>
             Maître Solène BEAUMONT intervient dans tous les domaines du droit
-            pénal
+            pénal.
           </p>
           <p>
             Que vous soyez victime ou mis en cause, Maître Solène BEAUMONT vous
@@ -23,13 +22,14 @@ const Domaines = () => {
               alt="icone de tribunal"
               className={style.content__icon}
             />
-            <p>
-              Elle vous assiste aussi bien au cours de l&apos;enquête (dépôt de
-              plainte, garde à vue, audition libre …), de l&apos;information
-              judiciaire ou encore de l&apos;audience devant le Tribunal de
-              Police, le Tribunal Correctionnel ou la Cour d&apos;Assises.
-            </p>
           </div>
+          <p>
+            Elle vous assiste aussi bien au cours de l&apos;enquête (dépôt de
+            plainte, garde à vue, audition libre …), de l&apos;information
+            judiciaire ou encore de l&apos;audience devant le Tribunal de
+            Police, le Tribunal Correctionnel ou la Cour d&apos;Assises.
+          </p>
+
           <p>
             Maître Solène BEAUMONT intervient également pour les mineurs qui
             sont auteurs d&apos;infraction devant le Juge des Enfants ou devant
@@ -41,13 +41,13 @@ const Domaines = () => {
               alt="poignée de main"
               className={style.content__icon}
             />
-            <p>
-              Le cabinet vous accompagne également dans la préparation de vos
-              audiences, établie avec vous une stratégie adaptée au regard des
-              éléments de votre dossier et vous explique l&apos;ensemble des
-              enjeux et de la procédure.
-            </p>
           </div>
+          <p>
+            Le cabinet vous accompagne également dans la préparation de vos
+            audiences, établie avec vous une stratégie adaptée au regard des
+            éléments de votre dossier et vous explique l&apos;ensemble des
+            enjeux et de la procédure.
+          </p>
 
           <p>
             Si vous êtes victime d&apos;une infraction pénale, Maître Solène
@@ -60,12 +60,13 @@ const Domaines = () => {
               alt="marteau de justice"
               className={style.content__icon}
             />
-            <p>
-              Elle vous assiste afin de faire valoir vos droits, faire
-              reconnaitre votre statut de victime et obtenir une indemnisation
-              de vos préjudices.
-            </p>
           </div>
+          <p>
+            Elle vous assiste afin de faire valoir vos droits, faire reconnaitre
+            votre statut de victime et obtenir une indemnisation de vos
+            préjudices.
+          </p>
+
           <p>
             Maître Solène BEAUMONT vous accueille au sein de son cabinet pour
             vous conseiller dans votre procédure et vous invite à prendre

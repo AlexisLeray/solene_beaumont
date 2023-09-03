@@ -1,10 +1,16 @@
 .credit__main_content {
-  height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+}
+.credit__main_content h2 {
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 .credit__main_content a {
   color: white;

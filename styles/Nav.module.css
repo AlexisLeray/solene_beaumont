@@ -150,6 +150,7 @@
   }
   .navItem a {
     color: var(--main-color);
+    font-weight: bold;
   }
   /* ===========V3================= */
   .navItem:hover a {
