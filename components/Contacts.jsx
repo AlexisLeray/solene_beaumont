@@ -1,7 +1,7 @@
 import style from "../styles/Contact.module.css";
 
 // export default function Contact() {
-const Contact = () => {
+const Contacts = () => {
   return (
     <div>
       <section id="contact" className={style.contact}>
@@ -92,4 +92,4 @@ const Contact = () => {
     </div>
   );
 };
-export default Contact;
+export default Contacts;

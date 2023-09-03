@@ -4,7 +4,7 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Contact from "../components/Contact";
+import Contacts from "../components/Contacts";
 /*
 import Honoraires from "../components/Honoraires.jsx";
 import Domaine from "../components/Domaine.jsx";
@@ -93,7 +93,7 @@ Maître Solène BEAUMONT intervient également pour les mineurs qui sont auteurs
       {/*<Domaine />
       <Honoraires />
       <Test />*/}
-      <Contact />
+      <Contacts />
       <Footer />
     </div>
   );
