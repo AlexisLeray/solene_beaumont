@@ -6,7 +6,7 @@ export default function Header() {
       <div className={styles.header__content}>
         <strong>
           <h1>Solène Beaumont</h1>
-          <h2>Avocat au barreau de Nantes</h2>
+          <h2>Avocate au barreau de Nantes</h2>
         </strong>
         <div>
           <a href="#content">
